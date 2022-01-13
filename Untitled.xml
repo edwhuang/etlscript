@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+
+<!-- A job has to log to a job log table. : Verifies that each imported job has configured the job logging table appropriately.  It can also validate that the schema name, table name and connection name contain a certain standard value.
+ -->
+<rule><id>JobHasJobLogConfigured</id>
+<enabled>Y</enabled>
+<schema_name/>
+<table_name/>
+<connection_name/>
+</rule>
+
+</rules>
